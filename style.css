@@ -5,7 +5,7 @@ body{
     padding: 0;
     box-sizing: border-box;
     font-family: 'Inter', sans-serif;
-    background-color: #F3F5FC;
+    background: #F3F5FC;
 }
 .subrayado{
     display:flex;
@@ -50,3 +50,18 @@ body{
     order: 0;
     flex-grow: 1;
 }
+.logo{
+    position: absolute;
+    left: 50px;
+    right: 37.43%;
+    top: 50px;
+    bottom: 0%;
+    width: 50px;
+    height:50px;
+  }
+
+  .canvas{
+    margin-left: 2.5rem;
+    width: 1024px;
+    height:800px
+  }

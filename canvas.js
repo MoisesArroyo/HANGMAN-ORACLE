@@ -31,11 +31,11 @@ function dibujarLinea(){
 }
 
 function escribirLetraCorrecta(index){
-    tablero.font = 'bold 63px Inter';
+    tablero.font = 'bold 52px Inter';
     tablero.lineWidth = 6;
     tablero.lineCap = "round";
     tablero.lineJoin = "round";
-    tablero.fillStyle = "#F3F5F6";
+    tablero.fillStyle = "#B2A7F9";
     
     let anchura = 600/palabraSecreto.length;
     tablero.fillText(palabraSecreto[index], 505+(anchura*index),620);
@@ -47,7 +47,6 @@ function escribirLetraIncorrecta(letra, errorsLeft){
     tablero.lineWidth = 6;
     tablero.lineCap = "round";
     tablero.lineJoin = "round";
-    tablero.fillStyle = "#F3F5F6";
+    tablero.fillStyle = "#B2A7F9";
     tablero.fillText(letra, 535+(40*(10-errorsLeft)), 710, 40);
-
 }

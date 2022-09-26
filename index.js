@@ -22,7 +22,7 @@ function comprobarLetra(key){
     }else{
         estado=true;
         console.log(key);
-        return estado;
+        return true;
     }
 }
 function anadirLetraErrores(){
